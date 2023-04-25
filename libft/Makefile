@@ -6,7 +6,7 @@
 #    By: ekoljone <ekoljone@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/02 14:31:17 by ekoljone          #+#    #+#              #
-#    Updated: 2023/04/25 13:58:14 by ekoljone         ###   ########.fr        #
+#    Updated: 2023/04/25 14:15:21 by ekoljone         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,6 +37,7 @@ $(OBJDIR)/%.o: $(SRCDIR)/%.c
 $(NAME): $(OBJECT)
 	ar rcs $(NAME) $(OBJECT)
 clean:
+	rm -rf $(OBJDIR)
 	$(RM) $(OBJECT)
 
 fclean: clean
