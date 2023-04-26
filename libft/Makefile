@@ -6,7 +6,7 @@
 #    By: ekoljone <ekoljone@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/02 14:31:17 by ekoljone          #+#    #+#              #
-#    Updated: 2023/04/25 14:15:21 by ekoljone         ###   ########.fr        #
+#    Updated: 2023/04/26 16:56:51 by ekoljone         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,4 +43,4 @@ clean:
 fclean: clean
 	$(RM) $(NAME)
 
-re: fclean $(NAME)
+re: fclean all
