@@ -9,7 +9,7 @@ libft is a custom C library that re-implements some of the standard C library fu
 
 # Usage
 
-1. Clone this repository on your local machine.
+1. Clone this repository on in the same directory as your project.
 ```
 git clone https://github.com/eetukoljonen/libft.git
 ```
